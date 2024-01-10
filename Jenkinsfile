@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools { 
+        nodejs 'NodeJS21' // Use the name you configured in Global Tool Configuration
+    }
     stages {
         stage('Build') {
             steps {
