@@ -1,10 +1,5 @@
 pipeline {
     agent any
-    nodejs('NodeJS21'){
-
-       npm install
-       npm run prod
-    }
     stages {
         stage('Build') {
             steps {
