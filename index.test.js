@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 it('should return OK', async () => {
     const response = await fetch('http://localhost:3000');
