@@ -4,6 +4,9 @@
   "type": "module",
   "description": "",
   "main": "index.js",
+  "nodemonConfig": {
+    "legacyWatch": true
+  },
   "scripts": {
     "test": "jest",
     "build": "",
