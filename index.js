@@ -1,4 +1,4 @@
-import { express } from 'express';
+import express  from 'express';
 import fetch from 'node-fetch';
 const app = express();
 const port = 3000;
@@ -7,7 +7,7 @@ app.get('/', async (req, res) => {
     try {
         const response = await fetch('https://www.google.com');
         if (response.ok) {
-            res.send('OK');
+            res.send('Ok');
         } else {
             res.send('Not OK');
         }
