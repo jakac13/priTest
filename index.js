@@ -7,7 +7,7 @@ app.get('/', async (req, res) => {
     try {
         const response = await fetch('https://www.google.com');
         if (response.ok) {
-            res.send('OK test3');
+            res.send('Ok');
         } else {
             res.send('Not OK');
         }
